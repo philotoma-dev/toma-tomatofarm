@@ -1,0 +1,143 @@
+
+header {
+  background-color: #326f2c;
+}
+
+
+.intro-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 0 80px;
+  text-align: center;
+}
+
+.lead-text{
+  width: 800px;
+  font-size: 24px;
+  display: block;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+
+
+.top-img {
+  
+  width: 100%; 
+  height: auto;
+  display: block;
+  margin-bottom: 40px; 
+}
+
+.store-img {
+  max-width: 800px;   
+  width: 100%;            
+  display: block;
+  margin: 40px auto 0;    
+  border-radius: 20px;
+}
+
+
+
+/* --- accessここから --- */
+#access {
+  margin: 0 auto;
+  background-color: #f3f3f3;
+
+  padding: 80px 0;
+}
+
+#access h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.access-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#access-img {
+  width: 440px;
+}
+
+#access-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#access-text {
+  width: 440px;
+  font-size: 18px;
+  line-height: 2.2;
+  text-align: start;
+  position: relative;
+}
+
+#access-text ul {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+/* トマトのイラスト */
+#access-text img {
+  position: absolute;
+  width: 140px;
+  right: 80px;
+  bottom: -30px;
+  z-index: 1;
+}
+
+
+.shop-info-container {
+  background-color: #C6E5C2; 
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.shop-info-container h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  color: #000000;
+}
+
+.info-table {
+  margin: 0 auto 15px auto; 
+  border-collapse:separate;
+  font-size: 24px;
+}
+
+.info-table th {
+  background-color: #e0e0e0;
+  padding: 10px 20px;
+  font-weight: normal;
+  width: 100px;
+}
+
+
+.info-table td {
+  background-color: #ffffff;
+  padding: 10px 30px;
+  text-align: left;
+}
+
+
+.info-table td.single-cell {
+  text-align: center;
+  width: 200px;
+}
+
+.note-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 50px 0;
+  color: #333333;
+}

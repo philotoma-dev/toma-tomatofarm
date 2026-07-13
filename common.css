@@ -1,0 +1,115 @@
+
+/* --- 全体共通の設定 --- */
+body {
+  margin: 0;
+  background-color: #f3f3f3;
+  color: #333333;
+  font-family: 'Noto Serif JP', serif;
+  overflow-x: hidden;
+}
+
+/* --- ヘッダー（ナビゲーション） --- */
+header {
+  width: 100%;
+  background-color: rgba(69, 120, 63, 0.85);
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  height: 68px;
+  display: block;
+}
+
+.nav-links {
+  width: 750px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* --- フッター --- */
+footer {
+  width: 100%;
+  background-color: #326f2c;
+  color: #ffffff;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+footer .footer-logo img {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+#footer-text {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+footer ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+footer ul li {
+  text-align: center;
+  font-size: 16px;       /* 前回ズレていた部分を統一 */
+  line-height: 1.8;      /* 前回ズレていた部分を統一 */
+}
+
+.btn-contact {
+  display: inline-block;
+  text-decoration: none;
+  background: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 160px;
+  text-align: center;
+}
+
+.btn-contact:hover {
+  background: #cc3b28;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.2);
+}
